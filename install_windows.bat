@@ -2,7 +2,7 @@
 title Instalador do Windows via DISM
 cls
 echo ========================================
-echo  INSTALLER DO WINDOWS - MODO MBR
+echo  INSTALANDO O WINDOWS EM MODO MBR
 echo ========================================
 echo.
 
@@ -89,7 +89,7 @@ bootsect /nt60 C: /mbr
 :: Concluido
 echo.
 echo ========================================
-echo  INSTALACAO FINALIZADA COM SUCESSO!
+echo  INSTALACAO FINALIZADA COM SUCESSO
 echo ========================================
 echo O sistema sera reiniciado em 10 segundos...
 timeout /t 10 /nobreak
